@@ -1,0 +1,34 @@
+.button-with-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent; 
+    position: relative; 
+    transition: all 0.3s ease;
+    border:none;
+  }
+  
+  .button-with-image:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent; 
+    backdrop-filter: blur(8px); 
+    z-index: 1;
+    border-radius: 10%; 
+  }
+  
+  .button-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the button evenly */
+    z-index: 2; /* Keeps the image above the blur */
+  }
+  

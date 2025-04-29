@@ -1,0 +1,39 @@
+.url-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.url-input-label {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.url-input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.url-input {
+  width: 80%;
+  padding: 8px 12px;
+  border: 2px solid var(--border-active);
+  border-radius: 4px;
+  background-color: var(--nav-bg);
+  font-family: inherit;
+}
+
+.url-submit-btn {
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.url-submit-btn:hover {
+  transform: scale(1.1);
+}

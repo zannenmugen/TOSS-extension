@@ -1,0 +1,43 @@
+.scanner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.scanner-text {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.divider {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scan-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--nav-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.scan-button:hover {
+  transform: scale(1.1);
+}
+
+.scan-button svg {
+  width: 24px;
+  height: 24px;
+}

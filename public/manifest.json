@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Toss",
+    "description": "A Web Extension with React and TypeScript",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "js/index.html",
+      "default_title": "Toss"
+    },
+    "permissions": ["storage"]
+  }
+  

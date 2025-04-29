@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Toss",
+  "description": "Terms of Service Summarizer, a basic chrome extension built on React",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/16x16.png",
+    "32": "images/32x32.png",
+    "48": "images/48x48.png",
+    "128": "images/128x128.png"
+  },
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "Toss",
+    "default_icon": {
+      "16": "images/16x16.png",
+      "32": "images/32x32.png",
+      "48": "images/48x48.png",
+      "128": "images/128x128.png"
+    }
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["storage", "scripting", "activeTab", "contextMenus"]
+}
