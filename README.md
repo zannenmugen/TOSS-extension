@@ -27,7 +27,7 @@ An interactive Chrome extension that finds and analyzes Terms of Service, Privac
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/sachinpandit140/toss.git
+git clone https://github.com/zannenmugen/TOSS-extension.git
 cd toss
 ```
 
